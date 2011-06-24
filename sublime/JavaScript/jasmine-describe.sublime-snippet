@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[describe('${1:description of suite}', function(){
+	$2
+});]]></content>
+    <tabTrigger>jd</tabTrigger>
+    <scope>source.js</scope>
+    <description>Jasmine Describe</description>
+</snippet>
