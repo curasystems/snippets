@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>Navigation Command</Title>
+      <Author>Matthias Schaffer</Author>
+      <Description>Creating a navigation command.</Description>
+      <HelpUrl>http://www.curasystems.de</HelpUrl>
+      <Shortcut>cmn</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>CommandName</ID>
+          <ToolTip>navigate to</ToolTip>
+          <Default>Example</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[
+	    #region GoTo$CommandName$Page Command
+        public ICommand GoTo$CommandName$PageCommand { get; private set; }
+
+        private bool CanGoTo$CommandName$Page(object parameter)
+        {
+            return true;           
+        }
+
+        private void BeforeGoTo$CommandName$Page(object parameter)
+        {
+			$end$
+        }
+		#endregion
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

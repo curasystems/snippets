@@ -1,0 +1,1 @@
+<snippet>    <content><![CDATA[goog.provide('$1');]]></content>    <tabTrigger>gp</tabTrigger>    <scope>source.js</scope>    <description>Google Compiler Provide Statement</description></snippet>

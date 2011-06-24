@@ -1,0 +1,1 @@
+<snippet>    <content><![CDATA[goog.require('$1');]]></content>    <tabTrigger>gr</tabTrigger>    <scope>source.js</scope>    <description>Google Compiler Require Statement</description></snippet>
