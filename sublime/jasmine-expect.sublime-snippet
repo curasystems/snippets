@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[expect(${1:something}).toEqual(${2:match});]]></content>
+    <tabTrigger>ee</tabTrigger>
+    <scope>source.js</scope>
+    <description>Jasmine Expect to Equal</description>
+</snippet>
