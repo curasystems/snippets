@@ -1,0 +1,1 @@
+<snippet>    <content><![CDATA[/** * @private * @type {${1:type}} */this.${2:name}_ = $0;]]></content>    <tabTrigger>@pt</tabTrigger>    <scope>source.js</scope>    <description>Add private type</description></snippet>
