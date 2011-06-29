@@ -1,0 +1,1 @@
+<snippet>    <content><![CDATA[/** * */${1:type}.prototype.${2:name} = function($3) {  $0};]]></content>    <tabTrigger>m</tabTrigger>    <scope>source.js</scope>    <description>New Public Function with JSDoc</description></snippet>
