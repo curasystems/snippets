@@ -1,7 +1,7 @@
 A collections of snippets and themes
 ====================================
 
-currently it includes snippets and themes for Sublime2 [1].
+currently it includes snippets and themes for [Sublime2][1].
 
   [1]: http://bit.ly/j1efsJ "www.sublimetext.com/2"
 
