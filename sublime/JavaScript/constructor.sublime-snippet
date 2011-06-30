@@ -1,1 +1,1 @@
-<snippet>    <content><![CDATA[goog.provide('${1:name}');           /**  * @constructor  */${1} = function($2) {  $0};]]></content>    <tabTrigger>nc</tabTrigger>    <scope>source.js</scope>    <description>Google Constructor with provide Statement</description></snippet>
+<snippet>    <content><![CDATA[goog.provide('${1:name}');          /** * @constructor */${1} = function($2) {  $0};]]></content>    <tabTrigger>nc</tabTrigger>    <scope>source.js</scope>    <description>Google Constructor with provide Statement</description></snippet>
