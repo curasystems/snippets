@@ -1,0 +1,1 @@
+<snippet>    <content><![CDATA[goog.provide('${1:name}.Spec');      goog.require('${1:name}');       describe('$1', function(){  $0});]]></content>    <tabTrigger>spec</tabTrigger>    <scope>source.js</scope>    <description>Add new jasmine spec for class</description></snippet>
